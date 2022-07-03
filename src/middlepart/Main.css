@@ -1,0 +1,49 @@
+img{
+  margin:0px;
+  padding:0px;
+  width:100%;
+  height: auto;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.top-right {
+  position: absolute;
+  top: 84%;
+  right: 47%;
+}
+.main-table{
+  position: absolute;
+  top: 20%;
+  right: 20%;
+   height: 60%;
+  width:60%;
+   background-color: black;
+}
+
+table,tr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  box-sizing: border-box;
+  font-size: 20px;
+  margin: 10%;
+  column-gap:12px;
+  height: 100%;
+  width: 80%;
+}
+.img-adj{
+  height:100%;
+  width:100%;
+}
+td{
+  height: 100px;
+  width: 100%;
+}
+.slot-button{
+  display: flex;
+  justify-content: space-around; 
+}
